@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&family=Rajdhani:wght@400;700&family=Montserrat:wght@400;700&family=Exo:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(43, 69, 221);
+}
+/* HEADER (MENU) */
+nav {
+    
+    background-color: rgb(23, 23, 107);
+    margin: 0;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+ 
+nav ul li {
+    list-style: none; /* Quitar viñetas */
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.Menu2 li {
+    display: flex;
+    gap: 30px;
+}
